@@ -1,0 +1,59 @@
+/* Setting The Default Margin and Padding  Of Whole Document Zero*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Body */
+/* Font Styling Of Body */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Header Styling */
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+/* Blog Post Styling */
+.blog-posts {
+  display: flex;
+}
+/* Section Styling */
+section {
+  text-align: center;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+/* h3 Styling */
+h3 {
+  margin: 15px 0px 15px 0px;
+}
+/* Blog Post Image Styling */
+img {
+  box-shadow: 0px 0px 10px 5px darkgreen; /* Apply Shadow Under The Images*/
+}
+/* Blog Post Paragraph Styling */
+p {
+  margin: 10px 0px 5px 0px;
+}
+/* Section Anchor Tag */
+section a {
+  text-decoration: none;
+  color: black;
+}
+/* Contact Us Section Span */
+.reach-me span {
+  padding: 0px 10px;
+}
+.reach-me span a {
+  text-decoration: none;
+  color: black;
+}
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
